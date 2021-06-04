@@ -23,4 +23,4 @@ while true do
     sleep(0.25)
 end
 ]]
-print(GetItemFromInventory("minecraft:wheat_seeds"))
+print("item", GetItemFromInventory("minecraft:wheat_seeds"))

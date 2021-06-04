@@ -10,7 +10,7 @@ function GetItemFromInventory(name, filter)
     for i=1,12 do
         if turtle.getItemCount(i) then
             local tbl = turtle.getItemDetail(i)
-            print(tbl)
+            print(textutils.serialize(tbl))
         end
     end
 end
